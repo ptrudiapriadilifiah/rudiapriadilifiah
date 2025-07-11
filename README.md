@@ -1,5 +1,4 @@
-# rudiapriadilifiah
-PT. RUDI APRIADI LIFIAH
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -12,7 +11,12 @@ PT. RUDI APRIADI LIFIAH
   <!-- Navbar -->
   <nav class="bg-green-700 text-white p-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold">PT RUDI APRIADI LIFIAH</h1>
+      <!-- Logo + Nama Perusahaan -->
+      <div class="flex items-center space-x-4">
+        <img src="LOGO PT RUDI APRIADI.jpg" alt="Logo PT" class="w-10 h-10 rounded-full bg-white p-1" />
+        <h1 class="text-xl font-bold">PT RUDI APRIADI LIFIAH</h1>
+      </div>
+      <!-- Menu -->
       <ul class="flex space-x-6">
         <li><a href="#beranda" class="hover:underline">Beranda</a></li>
         <li><a href="#tentang" class="hover:underline">Tentang Kami</a></li>
