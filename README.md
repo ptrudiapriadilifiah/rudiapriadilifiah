@@ -30,16 +30,17 @@
     </div>
   </nav>
 
-  <!-- Beranda (dengan video background) -->
+  <!-- Beranda (Video Background) -->
   <section id="beranda" class="relative h-screen overflow-hidden text-center text-white">
-    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <video autoplay muted loop class="absolute inset-0 object-cover w-full h-full brightness-75">
       <source src="https://static.videezy.com/system/resources/previews/000/047/292/original/Plants_TimeLapse.mp4" type="video/mp4" />
-      Maaf, browser Anda tidak mendukung video latar belakang.
+      <!-- fallback -->
+      <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80" alt="Pertanian" class="absolute inset-0 object-cover w-full h-full brightness-75" />
     </video>
-    <div class="relative z-10 flex items-center justify-center h-full">
-      <div class="bg-black bg-opacity-50 p-6 rounded max-w-3xl mx-auto">
+    <div class="relative z-10 flex items-center justify-center h-full px-4">
+      <div class="max-w-3xl bg-black bg-opacity-60 p-6 rounded leading-relaxed">
         <h2 class="text-4xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
-        <p class="text-xl">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
+        <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
       </div>
     </div>
   </section>
@@ -47,7 +48,7 @@
   <!-- Tentang Kami -->
   <section id="tentang" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576765607924-c53aa244385b?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+    <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Tentang Kami</h2>
       <p>
         PT Rudi Apriadi Lifiah adalah perusahaan distribusi resmi yang bekerja sama dengan PT Pupuk Indonesia
@@ -60,7 +61,7 @@
   <!-- Visi & Misi -->
   <section id="visi-misi" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1528314070841-36dbb6e3c5f2?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+    <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Visi & Misi</h2>
       <div class="mb-4">
         <h3 class="text-xl font-semibold mb-1">Visi</h3>
@@ -83,7 +84,7 @@
   <!-- Produk -->
   <section id="produk" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
+    <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded">
       <h2 class="text-2xl font-bold mb-3 leading-snug">Produk Kami</h2>
       <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
@@ -105,7 +106,7 @@
   <!-- Kontak -->
   <section id="kontak" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611600974643-14cd6d91d5dc?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+    <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Hubungi Kami</h2>
       <p class="mb-2">Untuk pemesanan atau informasi lebih lanjut, silakan hubungi:</p>
       <ul class="space-y-1">
