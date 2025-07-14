@@ -30,12 +30,11 @@
     </div>
   </nav>
 
-  <!-- Beranda (Video Background) -->
+  <!-- Beranda (Video Background Bergerak) -->
   <section id="beranda" class="relative h-screen overflow-hidden text-center text-white">
-    <video autoplay muted loop class="absolute inset-0 object-cover w-full h-full brightness-75">
-      <source src="https://static.videezy.com/system/resources/previews/000/047/292/original/Plants_TimeLapse.mp4" type="video/mp4" />
-      <!-- fallback -->
-      <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80" alt="Pertanian" class="absolute inset-0 object-cover w-full h-full brightness-75" />
+    <video autoplay muted loop playsinline class="absolute inset-0 object-cover w-full h-full brightness-75">
+      <source src="https://cdn.pixabay.com/video/2019/06/05/24187-345599154_tiny.mp4" type="video/mp4" />
+      Maaf, browser Anda tidak mendukung video.
     </video>
     <div class="relative z-10 flex items-center justify-center h-full px-4">
       <div class="max-w-3xl bg-black bg-opacity-60 p-6 rounded leading-relaxed">
@@ -46,7 +45,7 @@
   </section>
 
   <!-- Tentang Kami -->
-  <section id="tentang" class="relative py-12 px-4 md:px-16 text-white">
+  <section id="tentang" class="relative py-10 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576765607924-c53aa244385b?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Tentang Kami</h2>
@@ -59,7 +58,7 @@
   </section>
 
   <!-- Visi & Misi -->
-  <section id="visi-misi" class="relative py-12 px-4 md:px-16 text-white">
+  <section id="visi-misi" class="relative py-10 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1528314070841-36dbb6e3c5f2?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Visi & Misi</h2>
@@ -82,7 +81,7 @@
   </section>
 
   <!-- Produk -->
-  <section id="produk" class="relative py-12 px-4 md:px-16 text-white">
+  <section id="produk" class="relative py-10 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded">
       <h2 class="text-2xl font-bold mb-3 leading-snug">Produk Kami</h2>
@@ -104,7 +103,7 @@
   </section>
 
   <!-- Kontak -->
-  <section id="kontak" class="relative py-12 px-4 md:px-16 text-white">
+  <section id="kontak" class="relative py-10 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611600974643-14cd6d91d5dc?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-60 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Hubungi Kami</h2>
