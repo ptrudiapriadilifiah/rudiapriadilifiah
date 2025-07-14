@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -32,7 +33,7 @@
 
   <!-- Beranda -->
   <section id="beranda" class="relative py-16 text-center text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600423115367-54f6fc6c0b1c?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
       <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
       <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
@@ -57,14 +58,12 @@
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1528314070841-36dbb6e3c5f2?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
       <h2 class="text-2xl font-bold mb-3">Visi & Misi</h2>
-
       <div class="mb-4">
         <h3 class="text-xl font-semibold mb-1">Visi</h3>
         <p>
           Menjadi Perusahaan Dagang Terpercaya dan Terkemuka serta Mempunyai Akses Sumber dan Jaringan Pemasaran di Dalam dan Luar Negeri.
         </p>
       </div>
-
       <div>
         <h3 class="text-xl font-semibold mb-1">Misi</h3>
         <ol class="list-decimal pl-5 space-y-1">
