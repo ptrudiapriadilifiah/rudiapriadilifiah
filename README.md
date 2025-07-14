@@ -31,19 +31,19 @@
   </nav>
 
   <!-- Beranda -->
-  <section id="beranda" class="relative py-32 text-center text-white">
+  <section id="beranda" class="relative py-16 text-center text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600423115367-54f6fc6c0b1c?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-8 rounded">
-      <h2 class="text-4xl md:text-5xl font-bold mb-4">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
-      <p class="text-xl md:text-2xl">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
+    <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+      <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
+      <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
     </div>
   </section>
 
   <!-- Tentang Kami -->
-  <section id="tentang" class="relative py-16 px-4 md:px-16 text-white">
+  <section id="tentang" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576765607924-c53aa244385b?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-2xl font-bold mb-6">Tentang Kami</h2>
+    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+      <h2 class="text-2xl font-bold mb-3">Tentang Kami</h2>
       <p>
         PT Rudi Apriadi Lifiah adalah perusahaan distribusi resmi yang bekerja sama dengan PT Pupuk Indonesia
         untuk menyalurkan berbagai jenis pupuk unggulan ke seluruh wilayah Indonesia. Kami berdedikasi untuk mendukung
@@ -53,19 +53,21 @@
   </section>
 
   <!-- Visi & Misi -->
-  <section id="visi-misi" class="relative py-16 px-4 md:px-16 text-white">
+  <section id="visi-misi" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1528314070841-36dbb6e3c5f2?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-2xl font-bold mb-6">Visi & Misi</h2>
-      <div class="mb-8">
-        <h3 class="text-xl font-semibold mb-2">Visi</h3>
+    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+      <h2 class="text-2xl font-bold mb-3">Visi & Misi</h2>
+
+      <div class="mb-4">
+        <h3 class="text-xl font-semibold mb-1">Visi</h3>
         <p>
           Menjadi Perusahaan Dagang Terpercaya dan Terkemuka serta Mempunyai Akses Sumber dan Jaringan Pemasaran di Dalam dan Luar Negeri.
         </p>
       </div>
+
       <div>
-        <h3 class="text-xl font-semibold mb-2">Misi</h3>
-        <ol class="list-decimal pl-5 space-y-2">
+        <h3 class="text-xl font-semibold mb-1">Misi</h3>
+        <ol class="list-decimal pl-5 space-y-1">
           <li>Melakukan Perdagangan Umum dan Khusus yang menangani beraneka ragam produk-produk pertanian dari hulu hingga hilir secara komersial dan terukur.</li>
           <li>Melaksanakan transaksi perdagangan lokal maupun lintas negara.</li>
           <li>Melakukan produksi barang-barang yang mendukung perdagangan.</li>
@@ -76,34 +78,34 @@
   </section>
 
   <!-- Produk -->
-  <section id="produk" class="relative py-16 px-4 md:px-16 text-white">
+  <section id="produk" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-2xl font-bold mb-6">Produk Kami</h2>
+      <h2 class="text-2xl font-bold mb-3 leading-snug">Produk Kami</h2>
       <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-2">Urea</h3>
-          <p>Pupuk nitrogen tinggi untuk pertumbuhan tanaman.</p>
+          <h3 class="font-semibold text-xl mb-1">Urea</h3>
+          <p class="leading-relaxed">Pupuk nitrogen tinggi untuk pertumbuhan tanaman.</p>
         </li>
         <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-2">NPK</h3>
-          <p>Gabungan nutrisi penting: Nitrogen, Fosfor, dan Kalium.</p>
+          <h3 class="font-semibold text-xl mb-1">NPK</h3>
+          <p class="leading-relaxed">Gabungan nutrisi penting: Nitrogen, Fosfor, dan Kalium.</p>
         </li>
         <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-2">ZA</h3>
-          <p>Pupuk yang membantu pembentukan protein dan klorofil.</p>
+          <h3 class="font-semibold text-xl mb-1">ZA</h3>
+          <p class="leading-relaxed">Pupuk yang membantu pembentukan protein dan klorofil.</p>
         </li>
       </ul>
     </div>
   </section>
 
   <!-- Kontak -->
-  <section id="kontak" class="relative py-16 px-4 md:px-16 text-white">
+  <section id="kontak" class="relative py-12 px-4 md:px-16 text-white">
     <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611600974643-14cd6d91d5dc?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-2xl font-bold mb-6">Hubungi Kami</h2>
-      <p class="mb-4">Untuk pemesanan atau informasi lebih lanjut, silakan hubungi:</p>
-      <ul>
+    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+      <h2 class="text-2xl font-bold mb-3">Hubungi Kami</h2>
+      <p class="mb-2">Untuk pemesanan atau informasi lebih lanjut, silakan hubungi:</p>
+      <ul class="space-y-1">
         <li>📞 Telp/WA: <strong>0812-7350-7143</strong></li>
         <li>📧 Email: <strong>ptrudiapriadilifiah1990@gmail.com</strong></li>
         <li>🏢 Alamat: Jl. Palembang-Betung KM 16 No. 90 H, Kelurahan Tanah Mas, Palembang - Sumatra Selatan</li>
