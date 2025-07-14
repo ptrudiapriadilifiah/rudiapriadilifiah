@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -15,7 +14,7 @@
 <body class="bg-white text-gray-800">
 
   <!-- Navbar -->
-  <nav class="bg-green-700 text-white p-4 shadow-md">
+  <nav class="bg-green-700 text-white p-4 shadow-md z-20 relative">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-4">
         <img src="LOGO PT RUDI APRIADI.jpg" alt="Logo PT" class="w-10 h-10 rounded-full bg-white p-1" />
@@ -31,12 +30,17 @@
     </div>
   </nav>
 
-  <!-- Beranda -->
-  <section id="beranda" class="relative py-16 text-center text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
-      <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
-      <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
+  <!-- Beranda (dengan video background) -->
+  <section id="beranda" class="relative h-screen overflow-hidden text-center text-white">
+    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover brightness-75">
+      <source src="https://static.videezy.com/system/resources/previews/000/047/292/original/Plants_TimeLapse.mp4" type="video/mp4" />
+      Maaf, browser Anda tidak mendukung video latar belakang.
+    </video>
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <div class="bg-black bg-opacity-50 p-6 rounded max-w-3xl mx-auto">
+        <h2 class="text-4xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
+        <p class="text-xl">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
+      </div>
     </div>
   </section>
 
