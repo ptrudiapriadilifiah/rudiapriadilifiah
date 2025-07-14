@@ -1,9 +1,16 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PT Rudi Apriadi Lifiah</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -67,7 +74,7 @@
     <ul>
       <li>📞 Telp/WA: <strong>0812-7350-7143</strong></li>
       <li>📧 Email: <strong>ptrudiapriadilifiah1990@gmail.com</strong></li>
-      <li>🏢 Alamat: Jl.Palembang-Betung KM 16 No. 90 H Kelurahan Tanah Mas Palembang - Sumatra Selatan</li>
+      <li>🏢 Alamat: Jl. Palembang-Betung KM 16 No. 90 H, Kelurahan Tanah Mas, Palembang - Sumatra Selatan</li>
     </ul>
   </section>
 
