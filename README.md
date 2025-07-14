@@ -32,7 +32,7 @@
 
   <!-- Beranda -->
   <section id="beranda" class="relative py-16 text-center text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
+    <div class="absolute inset-0 bg-[url('[https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1470&q=80](https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?_gl=1*ekuh85*_ga*MTAwNTM4NzAyOS4xNzUyNDgzODAw*_ga_8JE65Q40S6*czE3NTI0ODM4MDAkbzEkZzEkdDE3NTI0ODM4MDgkajUyJGwwJGgw)')] bg-cover bg-center brightness-75"></div>
     <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
       <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
       <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
