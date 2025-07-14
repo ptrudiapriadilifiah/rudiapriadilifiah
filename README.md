@@ -26,6 +26,7 @@
       <ul class="flex space-x-6">
         <li><a href="#beranda" class="hover:underline">Beranda</a></li>
         <li><a href="#tentang" class="hover:underline">Tentang Kami</a></li>
+        <li><a href="#visi-misi" class="hover:underline">Visi & Misi</a></li>
         <li><a href="#produk" class="hover:underline">Produk</a></li>
         <li><a href="#kontak" class="hover:underline">Kontak</a></li>
       </ul>
@@ -46,6 +47,36 @@
       untuk menyalurkan berbagai jenis pupuk unggulan ke seluruh wilayah Indonesia. Kami berdedikasi untuk mendukung
       pertanian yang berkelanjutan dan meningkatkan hasil panen petani melalui produk berkualitas dan layanan terbaik.
     </p>
+  </section>
+
+  <!-- Visi & Misi -->
+  <section id="visi-misi" class="py-16 px-4 md:px-16 bg-white">
+    <h2 class="text-2xl font-bold mb-6">Visi & Misi</h2>
+
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold mb-2">Visi</h3>
+      <p>
+        Menjadi Perusahaan Dagang Terpercaya dan Terkemuka serta Mempunyai Akses Sumber dan Jaringan Pemasaran di Dalam dan Luar Negeri.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold mb-2">Misi</h3>
+      <ol class="list-decimal pl-5 space-y-2">
+        <li>
+          Melakukan Perdagangan Umum dan Khusus yang menangani beraneka ragam produk-produk pertanian dari hulu hingga hilir secara komersial dan terukur.
+        </li>
+        <li>
+          Melaksanakan transaksi perdagangan lokal maupun lintas negara.
+        </li>
+        <li>
+          Melakukan produksi barang-barang yang mendukung perdagangan.
+        </li>
+        <li>
+          Menjalin kemitraan dengan layanan yang terintegrasi dengan memanfaatkan jaringan dan sistem Teknologi Informasi yang handal.
+        </li>
+      </ol>
+    </div>
   </section>
 
   <!-- Produk -->
