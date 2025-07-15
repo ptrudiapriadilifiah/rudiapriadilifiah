@@ -32,12 +32,15 @@
 
   <!-- Beranda -->
   <section id="beranda" class="relative py-16 text-center text-white">
-    <div class="absolute inset-0 bg-[url('<a href="https://ibb.co/Qv39HFqG"><img src="https://i.ibb.co/F4L6Ybft/Desain-tanpa-judul.jpg" alt="Desain-tanpa-judul" border="0"></a>')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
-      <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
-      <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
-    </div>
-  </section>
+  <!-- Gambar latar belakang tanaman -->
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center brightness-75"></div>
+
+  <!-- Konten di atas latar -->
+  <div class="relative z-10 max-w-3xl mx-auto bg-black bg-opacity-50 p-6 rounded leading-relaxed">
+    <h2 class="text-3xl font-bold mb-2">Selamat Datang di PT RUDI APRIADI LIFIAH</h2>
+    <p class="text-lg">Distributor Resmi PT Pupuk Indonesia untuk kebutuhan pertanian nasional.</p>
+  </div>
+</section>
 
   <!-- Tentang Kami -->
   <section id="tentang" class="relative py-12 px-4 md:px-16 text-white">
