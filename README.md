@@ -94,26 +94,42 @@
 </section>
 
   <!-- Produk -->
-  <section id="produk" class="relative py-12 px-4 md:px-16 text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-2xl font-bold mb-3 leading-snug">Produk Kami</h2>
-      <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-1">Urea</h3>
-          <p class="leading-relaxed">Pupuk nitrogen tinggi untuk pertumbuhan tanaman.</p>
-        </li>
-        <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-1">NPK</h3>
-          <p class="leading-relaxed">Gabungan nutrisi penting: Nitrogen, Fosfor, dan Kalium.</p>
-        </li>
-        <li class="bg-white text-black bg-opacity-90 backdrop-blur rounded-lg p-4 shadow hover:shadow-md">
-          <h3 class="font-semibold text-xl mb-1">ZA</h3>
-          <p class="leading-relaxed">Pupuk yang membantu pembentukan protein dan klorofil.</p>
-        </li>
-      </ul>
+  <section id="produk-unggulan" class="py-16 px-4 md:px-20 text-white bg-[#0b2d4a]">
+  <h2 class="text-3xl font-bold text-center mb-12">PRODUK UNGGULAN</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Kartu Produk 1 -->
+    <div class="bg-yellow-200 text-black rounded-xl p-6 flex flex-col items-center shadow-lg">
+      <img src="https://i.ibb.co/g9WyHDh/produk-laoying.png" alt="NPK LAOYING" class="h-36 mb-4 object-contain" />
+      <h3 class="text-xl font-bold mb-2">NPK LAOYING</h3>
+      <p class="text-center mb-4 text-sm">Dengan berbagai macam varian untuk memenuhi kebutuhan agrikultural.</p>
+      <button class="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition">Selengkapnya</button>
     </div>
-  </section>
+
+    <!-- Kartu Produk 2 -->
+    <div class="bg-yellow-200 text-black rounded-xl p-6 flex flex-col items-center shadow-lg">
+      <img src="https://i.ibb.co/zVzB4Tg/produk-mestisol.png" alt="NPK CAIR MESTISOL" class="h-36 mb-4 object-contain" />
+      <h3 class="text-xl font-bold mb-2">NPK CAIR MESTISOL</h3>
+      <p class="text-center mb-4 text-sm">Sangat praktis dengan nutrisi yang mudah diserap tanaman.</p>
+      <button class="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition">Selengkapnya</button>
+    </div>
+
+    <!-- Kartu Produk 3 -->
+    <div class="bg-yellow-200 text-black rounded-xl p-6 flex flex-col items-center shadow-lg">
+      <img src="https://i.ibb.co/Pcv46K6/produk-orosoil.png" alt="ORO-SOIL ULTRA" class="h-36 mb-4 object-contain" />
+      <h3 class="text-xl font-bold mb-2">ORO-SOIL ULTRA</h3>
+      <p class="text-center mb-4 text-sm">Kuatkan akar agar mampu menyerap air dan nutrisi dengan sempurna.</p>
+      <button class="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition">Selengkapnya</button>
+    </div>
+  </div>
+
+  <!-- Tombol Semua Produk -->
+  <div class="text-center mt-12">
+    <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold">
+      Lihat Semua Produk
+    </button>
+  </div>
+</section>
 
   <!-- Kontak -->
   <section id="kontak" class="relative py-12 px-4 md:px-16 text-white">
