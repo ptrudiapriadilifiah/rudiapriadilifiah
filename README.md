@@ -51,7 +51,7 @@
   <div class="relative z-10 bg-black bg-opacity-60 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold mb-4 text-green-300">Tentang Kami</h2>
     <p class="text-lg leading-relaxed">
-      <span class="font-semibold text-green-200">PT Rudi Apriadi Lifiah</span> adalah perusahaan distribusi resmi yang bekerja sama dengan 
+      <span class="font-semibold text-green-200">PT Rudi Apriadi Lifiah</span> adalah perusahaan distributor resmi yang bekerja sama dengan 
       <span class="font-semibold">PT Pupuk Indonesia</span> untuk menyalurkan berbagai jenis pupuk unggulan ke seluruh wilayah Indonesia. 
       Kami berdedikasi untuk mendukung pertanian berkelanjutan dan meningkatkan hasil panen petani melalui produk berkualitas dan layanan terbaik.
     </p>
@@ -64,6 +64,11 @@
   <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1516979187457-637abb4f9356?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
 
   <!-- Konten utama -->
+  <section id="visi-misi" class="relative py-16 px-4 md:px-20 text-white">
+  <!-- Latar belakang: gambar rak buku -->
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1516979187457-637abb4f9356?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
+
+  <!-- Konten -->
   <div class="relative z-10 bg-black bg-opacity-60 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold mb-5 text-green-300">Visi & Misi</h2>
 
