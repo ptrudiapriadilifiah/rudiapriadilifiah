@@ -43,17 +43,20 @@
 </section>
 
   <!-- Tentang Kami -->
-  <section id="tentang" class="relative py-12 px-4 md:px-16 text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576765607924-c53aa244385b?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
-      <h2 class="text-2xl font-bold mb-3">Tentang Kami</h2>
-      <p>
-        PT Rudi Apriadi Lifiah adalah perusahaan distribusi resmi yang bekerja sama dengan PT Pupuk Indonesia
-        untuk menyalurkan berbagai jenis pupuk unggulan ke seluruh wilayah Indonesia. Kami berdedikasi untuk mendukung
-        pertanian yang berkelanjutan dan meningkatkan hasil panen petani melalui produk berkualitas dan layanan terbaik.
-      </p>
-    </div>
-  </section>
+  <section id="tentang" class="relative py-16 px-4 md:px-20 text-white">
+  <!-- Latar belakang gambar kantor -->
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
+
+  <!-- Konten -->
+  <div class="relative z-10 bg-black bg-opacity-60 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4 text-green-300">Tentang Kami</h2>
+    <p class="text-lg leading-relaxed">
+      <span class="font-semibold text-green-200">PT Rudi Apriadi Lifiah</span> adalah perusahaan distribusi resmi yang bekerja sama dengan 
+      <span class="font-semibold">PT Pupuk Indonesia</span> untuk menyalurkan berbagai jenis pupuk unggulan ke seluruh wilayah Indonesia. 
+      Kami berdedikasi untuk mendukung pertanian berkelanjutan dan meningkatkan hasil panen petani melalui produk berkualitas dan layanan terbaik.
+    </p>
+  </div>
+</section>
 
   <!-- Visi & Misi -->
   <section id="visi-misi" class="relative py-12 px-4 md:px-16 text-white">
