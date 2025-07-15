@@ -59,27 +59,34 @@
 </section>
 
   <!-- Visi & Misi -->
-  <section id="visi-misi" class="relative py-12 px-4 md:px-16 text-white">
-    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1528314070841-36dbb6e3c5f2?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
-    <div class="relative z-10 bg-black bg-opacity-50 p-6 rounded leading-relaxed">
-      <h2 class="text-2xl font-bold mb-3">Visi & Misi</h2>
-      <div class="mb-4">
-        <h3 class="text-xl font-semibold mb-1">Visi</h3>
-        <p>
-          Menjadi Perusahaan Dagang Terpercaya dan Terkemuka serta Mempunyai Akses Sumber dan Jaringan Pemasaran di Dalam dan Luar Negeri.
-        </p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-1">Misi</h3>
-        <ol class="list-decimal pl-5 space-y-1">
-          <li>Melakukan Perdagangan Umum dan Khusus yang menangani beraneka ragam produk-produk pertanian dari hulu hingga hilir secara komersial dan terukur.</li>
-          <li>Melaksanakan transaksi perdagangan lokal maupun lintas negara.</li>
-          <li>Melakukan produksi barang-barang yang mendukung perdagangan.</li>
-          <li>Menjalin kemitraan dengan layanan yang terintegrasi dengan memanfaatkan jaringan dan sistem Teknologi Informasi yang handal.</li>
-        </ol>
-      </div>
+  <section id="visi-misi" class="relative py-16 px-4 md:px-20 text-white">
+  <!-- Gambar latar belakang buku -->
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1516979187457-637abb4f9356?auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center brightness-75"></div>
+
+  <!-- Konten utama -->
+  <div class="relative z-10 bg-black bg-opacity-60 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-5 text-green-300">Visi & Misi</h2>
+
+    <!-- Visi -->
+    <div class="mb-6">
+      <h3 class="text-xl font-semibold mb-2 text-green-200">Visi</h3>
+      <p class="text-lg leading-relaxed">
+        Menjadi Perusahaan Dagang Terpercaya dan Terkemuka serta Mempunyai Akses Sumber dan Jaringan Pemasaran di Dalam dan Luar Negeri.
+      </p>
     </div>
-  </section>
+
+    <!-- Misi -->
+    <div>
+      <h3 class="text-xl font-semibold mb-2 text-green-200">Misi</h3>
+      <ol class="list-decimal pl-5 space-y-2 text-lg leading-relaxed">
+        <li>Melakukan Perdagangan Umum dan Khusus yang menangani beraneka ragam produk-produk pertanian dari hulu hingga hilir secara komersial dan terukur.</li>
+        <li>Melaksanakan transaksi perdagangan lokal maupun lintas negara.</li>
+        <li>Melakukan produksi barang-barang yang mendukung perdagangan.</li>
+        <li>Menjalin kemitraan dengan layanan yang terintegrasi dengan memanfaatkan jaringan dan sistem Teknologi Informasi yang handal.</li>
+      </ol>
+    </div>
+  </div>
+</section>
 
   <!-- Produk -->
   <section id="produk" class="relative py-12 px-4 md:px-16 text-white">
